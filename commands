@@ -1,0 +1,17 @@
+yum install java -y
+yum install git
+yum install docker
+yum install git
+yum installnpm
+yum install npm
+vi Dockerfile
+git clone https://github.com/mirza57865/Hospital-Management-new.git
+cd Hospital-Management-new
+docker build -t hospital .
+systemctl enable docker
+systemctl start docker
+systemctl status docker
+docker build -t hospital .
+docker images'
+docker images
+docker run -d -p 3000:3000 hospital
